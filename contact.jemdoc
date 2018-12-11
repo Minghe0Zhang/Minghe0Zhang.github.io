@@ -1,0 +1,52 @@
+# jemdoc: showsource
+# jemdoc: menu{MENU}{contact.html}
+= Contact
+
+== Emails
+#- [minghe_zhang@gatech.edu]
+#- [thuzmh@gmail.com]
+#~~~
+#{}{img_left}{images/emails.jpg}{Email ids}{75%}{}
+#~~~
+~~~
+{}{raw}
+<script language="JavaScript">
+var username = "minghe_zhang";
+var hostname = "gatech.edu";
+var linktext = username + "@" + hostname ;
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a><br>");
+
+var username = "thuzmh";
+var hostname = "gmail.com";
+var linktext = username + "@" + hostname ;
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+
+</script>
+~~~
+
+== Address
+~~~
+{}{img_left}{images/vanleer.jpg}{Van Leer Building}{350px}{}{https://www.ece.gatech.edu/}
+#==== Office
+#349 Gates Hall, 107 Hoy Road
+#\nIthaca, NY  14853
+Georgia Tech\n
+School of Electrical and Computer Engineering\n
+777 Atlantic Drive NW\n
+Atlanta, GA  30332-0250
+~~~
+
+
+== Find me online
+~~~
+{}{raw}
+<ul class="icons">
+<li><a href="https://www.facebook.com/minghe.zhang.75" class="fa fa-facebook solo"><span>Facebook</span></a></li>
+<li><a href="https://github.com/Minghe0Zhang" class="fa fa-github solo"><span>Github</span></a></li>
+<!--li><a href="#" class="fa fa-dribbble solo"><span>Dribbble</span></a></li-->
+<!-- <li><a href="http://www.twitter.com/ashudeepsingh" class="fa fa-twitter solo"><span>Twitter</span></a></li> -->
+<!-- <li><a href="http://plus.google.com/+AshudeepSingh" class="fa fa-google-scholar-square solo"><span>Google+</span></a></li> -->
+<li><a href="https://www.linkedin.com/in/minghe-zhang-69378713b/" class="fa fa-linkedin solo"><span>LinkedIn</span></a></li>
+<!-- <li><a href="http://instagram.com/ashudeep21" class="fa fa-instagram solo"><span>Instagram</span></a></li> -->
+</ul>
+~~~
