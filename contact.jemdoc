@@ -23,17 +23,14 @@ document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" +
 </script>
 ~~~
 
-== Address
-~~~
-{}{img_left}{images/vanleer.jpg}{Van Leer Building}{350px}{}{https://www.ece.gatech.edu/}
-#==== Office
-#349 Gates Hall, 107 Hoy Road
-#\nIthaca, NY  14853
-Georgia Tech\n
-School of Electrical and Computer Engineering\n
-777 Atlantic Drive NW\n
-Atlanta, GA  30332-0250
-~~~
+#== Address
+#~~~
+#{}{img_left}{images/vanleer.jpg}{Van Leer Building}{350px}{}{https://www.ece.gatech.edu/}
+#Georgia Tech\n
+#School of Electrical and Computer Engineering\n
+#777 Atlantic Drive NW\n
+#Atlanta, GA  30332-0250
+#~~~
 
 
 == Find me online
