@@ -3,6 +3,9 @@
 
 
 == Conference Papers
+[https://openreview.net/forum?id=Yg2CRGUln5k *Distributionally weighted K-nearest neighbors*].
+\n Shixiang Zhu, Liyan Xie, *Minghe Zhang*, Rui Gao, and Yao Xie.
+NeurIPS 2022. \n\n
 
 [https://arxiv.org/abs/2110.09140 *Learning Prototype-oriented Set Representations for Meta-Learning*].
 \n Dandan Guo, Long Tian, *Minghe Zhang*, Mingyuan Zhou and Hongyuan Zha.
@@ -54,7 +57,5 @@
 \n *Minghe Zhang*, Chen Xu, Andy Sun, Feng Qiu, Yao Xie.\n\n
 
 
-[https://arxiv.org/abs/2006.04004 *Distributionally robust k-Nearest neighbors for few-shot learning*].
-\n Shixiang Zhu, Liyan Xie, *Minghe Zhang*, Rui Gao, and Yao Xie.\n
 
 
