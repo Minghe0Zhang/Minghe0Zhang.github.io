@@ -32,6 +32,11 @@
 
 
 == Journal Paper
+Spectral CUSUM for Online Network Structure Change Detection.
+\n *Minghe Zhang*, Liyan Xie, Yao Xie.\n\n
+\nAccepted with Minor revision, IEEE Transactions on Information Theory, 2023.\n\n
+
+
 [https://arxiv.org/abs/2005.08665 *Spatio-temporal point processes with attention for traffic congestion event modeling*].
 \n Shixiang Zhu, Ruyi Ding, *Minghe Zhang*, Pascal Van Hentenryck, and Yao Xie.
 \nAccepted with Minor revision, IEEE Transactions on Intelligent Transportation Systems.\n\n
@@ -47,9 +52,6 @@
 [https://arxiv.org/abs/2101.11179 *Solar Radiation Anomaly Events Modeling Using Spatial-Temporal Mutually Interactive Processes
 *].
 \n *Minghe Zhang*, Chen Xu, Andy Sun, Feng Qiu, Yao Xie.\n\n
-
-Spectral-CUSUM for Network Structure Change Detection.
-\n *Minghe Zhang*, Liyan Xie, Yao Xie.\n\n
 
 
 [https://arxiv.org/abs/2006.04004 *Distributionally robust k-Nearest neighbors for few-shot learning*].
