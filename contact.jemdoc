@@ -10,7 +10,7 @@
 ~~~
 {}{raw}
 <script language="JavaScript">
-var username = "minghe_zhang";
+var username = "minghe.zhang";
 var hostname = "gatech.edu";
 var linktext = username + "@" + hostname ;
 document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a><br>");
