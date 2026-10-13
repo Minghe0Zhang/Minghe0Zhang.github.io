@@ -1,23 +1,20 @@
-/* High-Craft Minimalist Warm-Paper Theme for Minghe Zhang's Homepage */
+/* Clean Minimalist Theme for Minghe Zhang's Homepage */
 
 :root {
-  --bg-paper: #F6F3EA;
+  --bg-page: #F7F7F5;
   --surface-card: #FFFFFF;
-  --surface-sidebar: #FBF9F2;
-  --surface-subtle: #F8F6EE;
-  --text-primary: #0F172A;
-  --text-secondary: #334155;
-  --text-muted: #64748B;
-  --accent-primary: #1E6FCC;
-  --accent-hover: #1557B0;
-  --accent-soft: rgba(30, 111, 204, 0.08);
-  --border-hairline: rgba(15, 23, 42, 0.08);
-  --border-strong: rgba(15, 23, 42, 0.14);
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 16px;
-  --shadow-card: 0 12px 36px -8px rgba(15, 23, 42, 0.06), 0 2px 6px rgba(15, 23, 42, 0.03);
-  --shadow-photo: 0 10px 26px -6px rgba(15, 23, 42, 0.14);
+  --surface-sidebar: #FAFAFA;
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --text-muted: #6B7280;
+  --accent-primary: #1A56DB;
+  --accent-hover: #1E40AF;
+  --accent-soft: rgba(26, 86, 219, 0.07);
+  --border-hairline: #E5E7EB;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04);
+  --shadow-photo: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
 * {
@@ -25,21 +22,21 @@
 }
 
 body {
-  background: var(--bg-paper);
+  background: var(--bg-page);
   color: var(--text-secondary);
   font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 16.5px;
   line-height: 1.68;
   margin: 0;
-  padding: 40px 20px 60px;
+  padding: 36px 24px 56px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Main Centered Card Layout */
+/* Main Centered Container */
 table#tlayout {
   width: 100%;
-  max-width: 1020px;
+  max-width: 1120px;
   margin: 0 auto;
   border: 1px solid var(--border-hairline);
   border-radius: var(--radius-lg);
@@ -55,9 +52,9 @@ table#tlayout {
   background: var(--surface-sidebar);
   border: none;
   border-right: 1px solid var(--border-hairline);
-  padding: 36px 20px;
-  width: 220px;
-  min-width: 200px;
+  padding: 36px 18px;
+  width: 190px;
+  min-width: 180px;
   white-space: nowrap;
   text-align: left;
   vertical-align: top;
@@ -71,19 +68,18 @@ table#tlayout {
 div.menu-category {
   border-bottom: 1px solid var(--border-hairline);
   margin-top: 0;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   padding-top: 0;
-  padding-bottom: 14px;
+  padding-bottom: 12px;
   font-weight: 700;
-  font-size: 1.18rem;
+  font-size: 1.15rem;
   color: var(--text-primary);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
 }
 
 div.menu-head {
   color: var(--text-primary);
   font-weight: 700;
-  letter-spacing: -0.02em;
 }
 
 div.menu-item {
@@ -96,7 +92,7 @@ div.menu-item {
 #layout-menu a:link,
 #layout-menu a:visited {
   display: block;
-  padding: 9px 14px;
+  padding: 8px 12px;
   margin-left: 0;
   border-radius: var(--radius-md);
   color: var(--text-secondary);
@@ -105,7 +101,7 @@ div.menu-item {
   line-height: 1.4;
   text-decoration: none;
   border-bottom: none;
-  transition: background-color 0.16s ease, color 0.16s ease, box-shadow 0.16s ease;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 #layout-menu a:hover {
@@ -121,12 +117,11 @@ div.menu-item {
   color: #FFFFFF !important;
   font-weight: 600;
   border-bottom: none;
-  box-shadow: 0 2px 6px rgba(30, 111, 204, 0.24);
 }
 
 /* Right Content Pane */
 #layout-content {
-  padding: 40px 48px 36px;
+  padding: 38px 48px 36px;
   border: none;
   background: var(--surface-card);
   text-align: left;
@@ -135,8 +130,8 @@ div.menu-item {
 
 /* Headings */
 div#toptitle {
-  padding-bottom: 14px;
-  margin-bottom: 28px;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
   border-bottom: 1px solid var(--border-hairline);
 }
 
@@ -149,10 +144,10 @@ div#toptitle h1,
 #layout-content div#toptitle h1,
 h1 {
   color: var(--text-primary);
-  font-size: 2.1rem;
+  font-size: 2.0rem;
   font-weight: 700;
-  letter-spacing: -0.025em;
-  line-height: 1.2;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
   margin: 0;
   padding: 0;
   border-bottom: none;
@@ -166,14 +161,14 @@ div#subtitle {
 
 h2 {
   color: var(--text-primary);
-  font-size: 1.32rem;
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: -0.015em;
   line-height: 1.3;
-  margin-top: 2.1rem;
-  margin-bottom: 0.9rem;
+  margin-top: 2.0rem;
+  margin-bottom: 0.85rem;
   padding-top: 0;
-  padding-bottom: 0.45rem;
+  padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--border-hairline);
 }
 
@@ -199,9 +194,9 @@ h3 {
 /* Paragraphs & Links */
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.95rem;
   padding: 0;
-  line-height: 1.72;
+  line-height: 1.7;
   color: var(--text-secondary);
 }
 
@@ -218,7 +213,7 @@ a, a > tt {
   color: var(--accent-primary);
   font-weight: 500;
   text-decoration: none;
-  border-bottom: 1px solid rgba(30, 111, 204, 0.25);
+  border-bottom: 1px solid rgba(26, 86, 219, 0.25);
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
@@ -227,39 +222,43 @@ a:hover {
   border-bottom: 1px solid var(--accent-hover);
 }
 
-/* Hero Profile Table (index.html) */
+/* Profile Header Table (index.html) - Seamless with Main Content Background */
 table.imgtable {
   width: 100%;
   border: none;
-  border-collapse: separate;
-  border-spacing: 0;
-  margin-bottom: 1.5rem;
-  background: var(--surface-subtle);
-  border: 1px solid var(--border-hairline);
-  border-radius: 14px;
-  padding: 24px;
+  border-collapse: collapse;
+  background: transparent;
+  margin: 0 0 1.8rem 0;
+  padding: 0;
 }
 
 table.imgtable td {
   border: none;
+  background: transparent;
   text-align: left;
-  vertical-align: middle;
+  vertical-align: top;
   padding: 0;
 }
 
 table.imgtable td:first-child {
-  width: 230px;
+  width: 210px;
   padding-right: 28px;
 }
 
 table.imgtable img {
-  width: 220px !important;
+  width: 200px !important;
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: var(--shadow-photo);
   border: 1px solid var(--border-hairline);
   display: block;
+}
+
+table.imgtable td:last-child p:first-child > b:first-child {
+  font-size: 1.12rem;
+  color: var(--text-primary);
+  white-space: nowrap;
 }
 
 /* Lists (Education.html, etc.) */
@@ -288,7 +287,7 @@ li p, dd p {
 tt, pre {
   font-size: 0.9em;
   font-family: 'Source Code Pro', monospace;
-  background: var(--surface-subtle);
+  background: var(--surface-sidebar);
   padding: 2px 6px;
   border-radius: 4px;
 }
@@ -317,12 +316,9 @@ div.blockcontent {
   padding: 0.8em 1.1em;
 }
 
-div.infoblock > div.blockcontent {
-  background: var(--surface-subtle);
-}
-
+div.infoblock > div.blockcontent,
 div.codeblock > div.blockcontent {
-  background: var(--surface-subtle);
+  background: var(--surface-sidebar);
 }
 
 /* Social Icons on Contact Page */
@@ -337,14 +333,14 @@ ul.icons li {
 
 ul.icons a {
   border-bottom: none;
-  background: var(--surface-subtle);
+  background: var(--surface-sidebar);
   border: 1px solid var(--border-hairline);
   border-radius: 8px;
   width: 2.4em;
   height: 2.4em;
   line-height: 2.4em;
   color: var(--text-secondary);
-  transition: all 0.16s ease;
+  transition: all 0.15s ease;
 }
 
 ul.icons a:hover {
@@ -358,7 +354,7 @@ div#footer {
   font-size: 0.85rem;
   border-top: 1px solid var(--border-hairline);
   padding-top: 16px;
-  margin-top: 3.2rem;
+  margin-top: 3.0rem;
   color: var(--text-muted);
   font-variant-numeric: tabular-nums;
   overflow: hidden;
@@ -391,7 +387,7 @@ div#footer-text {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid var(--border-hairline);
-    padding: 20px;
+    padding: 18px 20px;
     white-space: normal;
   }
 
@@ -426,8 +422,8 @@ div#footer-text {
     margin-bottom: 18px;
   }
 
-  table.imgtable img {
-    margin: 0 auto;
+  table.imgtable td:last-child p:first-child > b:first-child {
+    white-space: normal;
   }
 }
 
