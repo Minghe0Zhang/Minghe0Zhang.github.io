@@ -1,0 +1,182 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[left=0.65in,right=0.65in,top=0.6in,bottom=0.65in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{cvteal}{HTML}{237A76}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\rfoot{\small Page \thepage\ of \pageref{LastPage}}
+
+\setlength{\parindent}{0pt}
+
+% Section formatting matching original template
+\titleformat{\section}
+  {\large\scshape\color{cvteal}}
+  {}{0em}{}
+  [\vspace{-0.55em}\textcolor{cvteal}{\rule{\textwidth}{0.5pt}}]
+\titlespacing*{\section}{0pt}{0.9em}{0.45em}
+
+\newcommand{\entry}[4]{%
+  \noindent\hspace{1.2em}\begin{minipage}[t]{\dimexpr\textwidth-1.2em\relax}
+    \textbf{#1} \hfill #2 \\
+    #3 \hfill #4
+  \end{minipage}\par\vspace{0.1em}
+}
+
+\newenvironment{cvitems}{%
+  \begin{itemize}[leftmargin=2.8em,label=--,topsep=1pt,itemsep=1pt,parsep=0pt]
+}{%
+  \end{itemize}\vspace{0.35em}
+}
+
+\begin{document}
+
+% Header
+\noindent
+\begin{minipage}[c]{0.52\textwidth}
+  {\fontsize{24}{28}\selectfont\color{cvteal} Minghe Zhang}
+\end{minipage}%
+\begin{minipage}[c]{0.48\textwidth}
+  \raggedleft\small
+  Website: \href{https://minghe0zhang.github.io}{minghe0zhang.github.io}\\
+  Email: \href{mailto:thuzmh@gmail.com}{thuzmh@gmail.com}\\
+  LinkedIn: \href{https://www.linkedin.com/in/minghe-zhang-69378713b/}{minghe-zhang-69378713b}\\
+  Phone number: 404-944-7651
+\end{minipage}
+
+\vspace{0.6em}
+
+\section{Education}
+
+\entry{Georgia Institute of Technology}{Atlanta, Georgia, USA}{Ph.D. in Machine Learning}{Aug. 2019 -- May 2023}
+\begin{cvitems}
+  \item Department: H. Milton Stewart School of Industrial and Systems Engineering (ISYE)
+  \item Advisor: Dr. Yao Xie
+\end{cvitems}
+
+\entry{Georgia Institute of Technology}{Atlanta, Georgia, USA}{M.S. in Electrical and Computer Engineering}{Aug. 2017 -- May 2019}
+\begin{cvitems}
+  \item Thesis: ``Online Subspace Tracking for Community Change Detection''
+\end{cvitems}
+
+\entry{Tsinghua University}{Beijing, China}{B.S. in Electronic Engineering}{Aug. 2013 -- May 2017}
+\begin{cvitems}
+  \item Thesis: ``Hardware Acceleration on Image Recognition''
+\end{cvitems}
+
+\section{Skills}
+
+\begin{itemize}[leftmargin=1.5em,topsep=2pt,itemsep=2.5pt,parsep=0pt]
+  \item \textbf{Programming:} Python, PyTorch, TensorFlow, SQL, MATLAB, R, C/C++, Java, JavaScript, HTML, CSS.
+  \item \textbf{Technical:} Large Language Model (LLM) Evaluation, Recursive Self-Improvement (RSI), Agentic Self-Learning, Deep Learning Ranking \& Recommendation, Meta-Learning, Time-Series Analysis, Point Process, Anomaly Detection.
+  \item \textbf{Mathematics:} Stochastic Processes, Statistical Machine Learning, Sequential Change Detection, Causal Inference, Convex Optimization.
+\end{itemize}
+
+\section{Work Experience}
+
+\entry{Google}{Mountain View, CA, USA}{Machine Learning Engineer}{2026 -- Present}
+\begin{cvitems}
+  \item Focusing on Recursive Self-Improvement (RSI) and Large Language Model (LLM) Evaluation.
+  \item Designing multi-round agentic self-learning pipelines, statistical evaluation harnesses, and high-reliability LLM-as-a-Judge methodologies for enterprise AI agents.
+\end{cvitems}
+
+\entry{Ads Ranking \& Recommendation, Meta}{Menlo Park, CA, USA}{Research Scientist}{May 2024 -- 2026}
+\begin{cvitems}
+  \item Researched and scaled large-scale deep learning ranking and recommendation algorithms for Meta Ads production systems.
+  \item Led end-to-end model architecture iteration, online A/B experimentation, and metric governance to improve ad relevance and conversion efficiency.
+\end{cvitems}
+
+\entry{E-Commerce Recommendation Team, TikTok}{Bellevue, WA, USA}{Machine Learning Scientist}{July 2023 -- May 2024}
+\begin{cvitems}
+  \item Worked on large-scale short-video and e-commerce recommendation systems.
+\end{cvitems}
+
+\entry{International Machine Learning, Amazon}{Seattle, WA, USA}{Applied Scientist Intern}{Fall 2022}
+\begin{cvitems}
+  \item Accelerating training DNN through data subsampling.
+  \item Proposed an adaptive subsampling method called \textit{Adaselection} for deep learning models in large-scale machine learning systems.
+  \item Demonstrated the method to be effective on various classification, regression, and natural language processing tasks when compared with industry-wide adopted baselines.
+\end{cvitems}
+
+\entry{Recommendation Core ML, Meta}{Menlo Park, CA, USA}{Machine Learning Engineering Intern}{Summer 2022}
+\begin{cvitems}
+  \item Improving Early Stage Ranking Model in Instagram Reels.
+  \item Explored improving the early-stage ranker from multiple perspectives, including building overarch on the TTSN model and using Knowledge Distillation to transfer knowledge from the final ranker.
+  \item Achieved improved NE metric on the early-stage ranker for the IG Reels model.
+\end{cvitems}
+
+\entry{Tencent AI Lab, Machine Learning Center}{Shenzhen, China}{Research Assistant supervised by Dr. Long-Kai Huang}{Summer 2021}
+\begin{cvitems}
+  \item Out-of-Distribution Detection for Task-Adaptive Meta Learning.
+  \item Based on MAML, developed an out-of-distribution task by combining data from various distributions.
+  \item Proposed a multi-stage optimization process with learning-to-stop criteria to improve fine-tuning.
+\end{cvitems}
+
+\entry{Argonne National Lab}{Chicago, IL, USA}{Research Assistant supervised by Dr. Qiu Feng}{Fall 2020}
+\begin{cvitems}
+  \item Graph Learning for solving Combinatorial Optimizations.
+  \item Worked on using a graph embedding technique to optimize a power restoration problem for better generalization ability.
+\end{cvitems}
+
+\entry{SF Express}{Shenzhen, Guangzhou, China}{Machine Learning and Artificial Intelligence Engineer}{Summer 2018}
+\begin{cvitems}
+  \item Built a recommendation system based on logistic networks between companies.
+  \item Implemented change point detection to analyze fluctuations in employee salaries.
+  \item Applied SVM, random forest, and deep neural networks to predict value-added delivery insurance demand.
+\end{cvitems}
+
+\section{Research Experience}
+
+\entry{Georgia Institute of Technology}{Atlanta, GA, USA}{Research Assistant supervised by Dr. Yao Xie}{Spring 2020 -- Spring 2023}
+\begin{cvitems}
+  \item Spatial-Temporal Mutually Interactive Process Models for Solar Radiation Anomaly Events.
+  \item Built a generative spatial-temporal Bernoulli model to fit extracted abnormal events in solar radiation observations.
+  \item Developed an online learning algorithm to calibrate thresholds for predicting future abnormal events, achieving significantly higher accuracy under non-stationary settings.
+  \item Conference version presented at INFORMS Conference on Service Science (ICSS 2021).
+\end{cvitems}
+
+\entry{Georgia Institute of Technology}{Atlanta, GA, USA}{Research Assistant supervised by Dr. Yao Xie}{Fall 2018 -- Spring 2023}
+\begin{cvitems}
+  \item Spectral CUSUM for Online Network Structure Change Detection.
+  \item Designed a Spectral CUSUM procedure to detect community change in dynamic graphs.
+  \item Used a Gaussian model to represent graph structure and derived closed-form expressions for Expected Detection Delay (EDD) and Average Run Length (ARL).
+  \item Published conference paper at ICASSP 2020 and journal version in \textit{IEEE Transactions on Information Theory}.
+\end{cvitems}
+
+\entry{Georgia Institute of Technology}{Atlanta, GA, USA}{Research Assistant supervised by Dr. Yao Xie}{Spring 2020}
+\begin{cvitems}
+  \item Deep Attention Point Processes with Neural Spectrum Fourier Kernel.
+  \item Created a novel attention-based model for discrete event data to capture complex non-linear temporal dependence structures.
+  \item Incorporated an attention mechanism into the conditional intensity function of point processes with a neural spectrum Fourier kernel embedding.
+  \item Published at AISTATS 2021 (oral presentation, acceptance rate: 3.1\%).
+\end{cvitems}
+
+\newpage
+\section{Publications}
+
+\begin{enumerate}[leftmargin=2.2em,label={[\arabic*]},topsep=2pt,itemsep=4pt,parsep=0pt]
+  \item \textbf{M. Zhang}, L. Xie, and Y. Xie, ``Spectral-CUSUM for network structure change detection,'' \textit{IEEE Transactions on Information Theory}, 2023.
+  \item S. Zhu, S. Yuchi, \textbf{M. Zhang}, and Y. Xie, ``Sequential adversarial anomaly detection for dependent events,'' \textit{INFORMS Journal on Data Science (IJDS)}, 2023.
+  \item D. Guo, L. Tian, \textbf{M. Zhang}, M. Zhou, and H. Zha, ``Learning prototype-oriented set representations for meta-learning,'' in \textit{International Conference on Learning Representations (ICLR)}, 2022.
+  \item S. Zhu, L. Xie, \textbf{M. Zhang}, R. Gao, and Y. Xie, ``Distributionally robust weighted k-nearest neighbors,'' in \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2022.
+  \item S. Wei, S. Zhu, \textbf{M. Zhang}, and Y. Xie, ``Goodness-of-fit test for mismatched self-exciting processes,'' in \textit{International Conference on Artificial Intelligence and Statistics (AISTATS)}, PMLR, 2021, pp. 1243--1251.
+  \item \textbf{M. Zhang}, C. Xu, and Y. Xie, ``Spatial-temporal mutually interactive process models for solar radiation anomaly events,'' \textit{The 2021 INFORMS Conference on Service Science (ICSS 2021)}, 2021.
+  \item S. Zhu, H. S. Yuchi, \textbf{M. Zhang}, and Y. Xie, ``Sequential adversarial anomaly detection with deep Fourier kernel,'' in \textit{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, IEEE, 2021, pp. 3345--3349.
+  \item S. Zhu, \textbf{M. Zhang}, R. Ding, and Y. Xie, ``Deep Fourier kernel for self-attentive point processes,'' in \textit{International Conference on Artificial Intelligence and Statistics (AISTATS)}, PMLR, 2021, pp. 856--864.
+  \item \textbf{M. Zhang}, L. Xie, and Y. Xie, ``Online community detection by spectral CUSUM,'' in \textit{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, IEEE, 2020, pp. 3402--3406.
+  \item S. Zhu, R. Ding, \textbf{M. Zhang}, P. Van Hentenryck, and Y. Xie, ``Spatio-temporal point processes with attention for traffic congestion event modeling,'' \textit{IEEE Transactions on Intelligent Transportation Systems}, 2020.
+  \item H. Cheng, H.-L. Wang, \textbf{M. Zhang}, D. Hand, and P. A. Beerel, ``Automatic retiming of two-phase latch-based resilient circuits,'' \textit{IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, vol. 38, no. 7, pp. 1305--1316, 2018.
+  \item H.-L. Wang, \textbf{M. Zhang}, and P. A. Beerel, ``Retiming of two-phase latch-based resilient circuits,'' in \textit{Proceedings of the 54th Annual Design Automation Conference (DAC)}, 2017, pp. 1--6.
+\end{enumerate}
+
+\end{document}
