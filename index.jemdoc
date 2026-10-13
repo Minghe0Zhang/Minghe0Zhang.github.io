@@ -2,36 +2,20 @@
 = Minghe Zhang
 
 ~~~
-{}{img_left}{images/Minghe.jpeg}{Minghe Zhang}{360px}
-Machine Learning Engineer focusing on RSI & LLM Eval @ Google
+{}{img_left}{images/Minghe.jpeg}{Minghe Zhang}{220px}
+*Machine Learning Engineer focusing on RSI & LLM Eval @ Google*
 \nPh.D. in Machine Learning (2019 - 2023)
 \nH. Milton Stewart School of Industrial and Systems Engineering
 \nGeorgia Institute of Technology, Atlanta, GA
-# \n\n[contact.html Contact]: [minghe.zhang@gatech.edu]\n\n
-# {{<ul class="icons">
-# <li><a href="https://www.facebook.com/ashudeep.singh" class="fa fa-facebook solo"><span>Facebook</span></a></li>
-# <li><a href="https://github.com/ashudeep" class="fa fa-github solo"><span>Github</span></a></li>
-# <li><a href="http://plus.google.com/+AshudeepSingh" class="fa fa-google-plus-square solo"><span>Google+</span></a></li>
-# <li><a href="http://www.linkedin.com/in/ashudeepsingh" class="fa fa-linkedin solo"><span>LinkedIn</span></a></li>
-# </ul>}}
 
-  \n\n*Research Interest:*\n
-  Statistical Machine Learning, Network causal analysis, Point Process modeling for discrete events, Meta Learning\n
-# *New* Our paper on [https://arxiv.org/abs/1802.07281 *Fairness of Exposure in Rankings*] has been accepted to [http://kdd.org/kdd2018/ KDD 2018]. \n
-# *New* Our new paper on [https://arxiv.org/abs/1802.07281 *Fairness of Exposure in Rankings* is up on arXiv]. \n
-#*New* Spotlight Presentation and Workshop paper on "[http://www.k4all.org/wp-content/uploads/2017/09/WPOC2017_paper_9.pdf Equality of Opportunity in #Rankings]" at [http://www.k4all.org/event/prioritising/ Workshop on Prioritizing Online Content] at [https://nips.cc/Conferences/2017 NIPS 2017].\n
-#*New* Workshop paper on "[pubs/unbiased-embeddings.pdf Learning item embeddings using biased feedback]" at [https://sites.google.com/view/causalnips2017 Causal Inference and Machine Learning for Intelligent Decision Making Workshop] at [https://nips.cc/Conferences/2017 NIPS 2017]
+  \n*Research Interest:*\n
+  Recursive Self-Improvement (RSI), LLM Evaluation, Statistical Machine Learning, Network Causal Analysis, Point Process Modeling, Meta-Learning\n
 ~~~
 
 == About Me
-I am currently a Machine Learning Engineer at Google focusing on Recursive Self-Improvement (RSI) and LLM Evaluation. 
+I am currently a Machine Learning Engineer at Google focusing on Recursive Self-Improvement (RSI) and LLM Evaluation. Prior to joining Google, I was a Research Scientist at Meta working on ads ranking algorithms.
 
-In the past, I obtained my Ph.D. degree in Machine Learning at the department of ISYE at Georgia Tech. I am particularly interested in Causal Inference for Dynamic Networks, Discrete events modeling using Point Process, and Meta Learning. 
-I am fortunate to be advised by Prof. [https://www2.isye.gatech.edu/~yxie77/ Yao Xie]. 
-I also achieved my MS degree of ECE in Georgia Tech. And I completed my BS degree in Tsinghua University where I worked with Prof. [https://rapidthu.wixsite.com/home Shouyi Yin] exploring deep learning for image detection. During my undergraduate, I also worked with Prof. [http://async.usc.edu/index.php?option=com_content&view=article&id=7 Peter Beerel] on Resilient Circuit Network Optimization at University of Southern California as a summer intern. 
+In the past, I obtained my Ph.D. degree in Machine Learning at the H. Milton Stewart School of Industrial and Systems Engineering (ISyE) at Georgia Tech, where I was fortunate to be advised by Prof. [https://www2.isye.gatech.edu/~yxie77/ Yao Xie]. My doctoral research focused on Causal Inference for Dynamic Networks, Discrete Events Modeling using Point Processes, and Meta-Learning.
+I also received my M.S. degree in Electrical and Computer Engineering (ECE) from Georgia Tech, and my B.S. degree in Electronic Engineering from Tsinghua University, where I worked with Prof. [https://rapidthu.wixsite.com/home Shouyi Yin] exploring deep learning for image detection. During my undergraduate studies, I also worked with Prof. [http://async.usc.edu/index.php?option=com_content&view=article&id=7 Peter Beerel] on Resilient Circuit Network Optimization at the University of Southern California as a summer intern.
 
-My updated [Resume_Minghe.pdf CV] can be found here. 
-
-
-# \n\n(I try to update my website when I get time. If you want any updated information, please contact me on my email address)\n
-
+My [Resume_Minghe.pdf CV] can be found here.
